@@ -1,3 +1,8 @@
+This is the r6p2 compiled version of Mali400 GPU driver for linux. right now working only with fbdev and xorg. My sources told me the support with Walyand is coming soon. 
+
+The most important file inside this repository is LibMali.so. Also, look at all the 'readme's inside each folder. They're super helpful.
+
+Here's the original Readme:
 ==========================================================================
 Author: Albert Yu (Allwinner Technology)
 
