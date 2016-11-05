@@ -3,7 +3,9 @@ Original notes on how to use these drivers.
 1.we use the drm-backend.so backend, and must use drm driver.
 
 2.libMali.so has itself libgbm.so,so you must modify the weston compositor to load libmali.so:
-  /weston/libweston/compositor-drm.c:
+
+`/weston/libweston/compositor-drm.c:`
+
 ......
 ```c
 static struct gbm_device *
