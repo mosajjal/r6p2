@@ -5,7 +5,7 @@ Original notes on how to use these drivers.
 2.libMali.so has itself libgbm.so,so you must modify the weston compositor to load libmali.so:
   /weston/libweston/compositor-drm.c:
 ......
-static struct gbm_device *
+`static struct gbm_device *
 create_gbm_device(int fd)
 {
 struct gbm_device *gbm;
@@ -25,7 +25,7 @@ dlopen("libglapi.so.0", RTLD_LAZY | RTLD_GLOBAL);//here load libMali
 gbm = gbm_create_device(fd);
 
 return gbm;
-}
+}`
 ......
 when gbm_bo_create with GBM_BO_USE_SCANOUT flags, we(drm driver) use dma_alloc_attrs to alloc continuous memory,  other use nocontig_buf_alloc to alloc non- continuous memory(egl-wayland-client app).
 
