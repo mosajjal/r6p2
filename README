@@ -1,6 +1,6 @@
 This is the r6p2 compiled version of Mali400 GPU driver for linux. right now working only with fbdev and xorg.
 
-~~ My sources told me the support with Walyand is coming soon. ~~
+<del> My sources told me the support with Walyand is coming soon.</del>
 
 Wayland support also added
 
