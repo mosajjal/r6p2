@@ -1,8 +1,4 @@
-This is the r6p2 compiled version of Mali400 GPU driver for linux. right now working only with fbdev and xorg.
-
-<del> My sources told me the support with Walyand is coming soon.</del>
-
-Wayland support also added
+This is the r6p2 compiled version of Mali400 GPU driver for linux. right now working only with fbdev and xorg AND Wayland
 
 The most important file inside this repository is LibMali.so. Also, look at all the 'readme's inside each folder. They're super helpful.
 
