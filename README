@@ -2,7 +2,10 @@ This is the r6p2 compiled version of Mali400 GPU driver for linux. right now wor
 
 The most important file inside this repository is LibMali.so. Also, look at all the 'readme's inside each folder. They're super helpful.
 
-Also, the EULA for all these files are exactly the same as the other Mali userspace Drivers. At least that's what I'm told. 
+Also, the EULA for all these files are exactly the same as the other Mali userspace Drivers. At least that's what I'm told.
+
+UPDATE: There seems to be a problem with the lisence information. I'm currently contacting Allwinner's legal team to solve this problem. 
+In the meantime, you can read the code but I don't think you can fork and use it. 
 
 Here's the original Readme:
 
